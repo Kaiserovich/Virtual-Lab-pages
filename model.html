@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>ПКМ - Имитационная модель</title>
+
+        <link rel="shortcut icon" href="img/Physics.ico">
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+            <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/33.json", {onProgress: UnityProgress});
+    </script>
+    </head>
+    
+    <script src='other/MathJax-master/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    
+	<body>
+
+
+		<!-- Header -->
+		<header id="header">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="theory.html">Теория</a></li>
+						<li><a href="specification.html">Описание</a></li>
+						<li><a href="model.html">Имитационная модель</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		
+		    <div class="webgl-content">
+      <div id="gameContainer" style="width: 1366px; height: 800px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">KMS</div>
+      </div>
+    </div>
+
+                        
+        
+    
+     
+        
+     
+        <!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+		<!-- jQuery Plugins -->
+        <script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
